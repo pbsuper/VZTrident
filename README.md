@@ -9,7 +9,7 @@ Voron Trident Skirt
 
 Annex engineering Panel clips and Door Hinges
 
-Tripple Z system inspired by the Voron Trident
+Triple Z system inspired by the Voron Trident
 
 ![image](https://github.com/pbsuper/VZTrident/blob/a73ad2f0d8f5635ada17f62b3b6fca5949aac086/VZTrident_Open.jpg)
 
