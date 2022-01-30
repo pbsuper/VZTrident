@@ -3,10 +3,10 @@ VZTrident the VZbot Trident child.
 
 This is a build based on the X5SA-400 Printer using:
 
-VZbot Gantry and tophat hinges.
-Voron Trident Skirt
-Annex engineering Panel clips and Door Hinges
-Tripple Z system inspired by the Voron Trident
+VZbot Gantry and tophat hinges. 
+Voron Trident Skirt 
+Annex engineering Panel clips and Door Hinges 
+Tripple Z system inspired by the Voron Trident 
 
 You can find the complete model without CAD-Software here: [CAD model web viewer](https://a360.co/3ITT817) 
 
