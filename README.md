@@ -11,10 +11,9 @@ Annex engineering Panel clips and Door Hinges
 
 Triple Z system inspired by the Voron Trident
 
-![image](https://github.com/pbsuper/VZTrident/blob/a73ad2f0d8f5635ada17f62b3b6fca5949aac086/VZTrident_Open.jpg)
-
-
 You can find the complete model without CAD-Software here: [CAD model web viewer](https://a360.co/3ITT817) 
+
+![image](https://github.com/pbsuper/VZTrident/blob/a73ad2f0d8f5635ada17f62b3b6fca5949aac086/VZTrident_Open.jpg)
 
 
 This project is licensed as
