@@ -2,6 +2,6 @@
 
 3x 8x8 500mm leadscrews
 
-3x 8x8 Pom leadscrew nuts
+3x 8x8 POM leadscrew nuts
 
 3x Couplers
