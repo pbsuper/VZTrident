@@ -10,7 +10,8 @@ Voron Trident Skirt
 Annex engineering Panel clips and Door Hinges
 
 Triple Z system inspired by the Voron Trident
-Video of the printer: [VZTrident] (https://drive.google.com/file/d/1hXe_eZGZ0fsk1MWA-nmpsxVc_xzYL8Yt/view?usp=sharing)
+
+Video of the printer: [VZTrident](https://drive.google.com/file/d/1hXe_eZGZ0fsk1MWA-nmpsxVc_xzYL8Yt/view?usp=sharing)
 
 You can find the complete model without CAD-Software here: [CAD model web viewer](https://a360.co/3ITT817) 
 
