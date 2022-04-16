@@ -1,7 +1,5 @@
-3x MGN12C or H 500mm
+2 Versions
 
-3x 8x8 500mm leadscrews
+GE5C uses cheap bearings for movement and a Frame under the bed.
 
-3x 8x8 POM leadscrew nuts
-
-3x Couplers
+Magnet_Balls method uses a Magnet in the mounts of the Rails and a Ball directly attached to the bed thus not needing a Bed frame.
