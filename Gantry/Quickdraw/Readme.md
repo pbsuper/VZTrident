@@ -45,4 +45,4 @@ detach_speed:              10
 travel_speed:              300
 check_open_attach:         True #checks to see if the probe is attached before moving the toolhead, if not retries to pick up the probe
 dock_fixed_z:              True # k series printers use a dock fixed in the z axis, this was off a K2
-dock_retries:			   3```
+dock_retries:			   3
