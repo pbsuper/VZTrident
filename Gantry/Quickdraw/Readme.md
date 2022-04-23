@@ -1,6 +1,6 @@
 Quickdraw mount for VZbot Alu Printhead.
 
-Strip 2 24AWG wires for about 2cm twist the wire so no strands are loose and stick it in the back of the Quickdraw mount. Cut wires flush with magnets after they have been added into the mount and put a dot of glue on the wire where it enters the Quickdraw Mount.
+Strip 2 24AWG wires for about 2cm twist the wire so no strands are loose and stick it in the back of the Quickdraw mount. Cut wires flush with magnets after they have been added into the mount and put a dot of glue on the wire where it enters the Quickdraw Mount. For added security you can add a tiny dot of solder onto the wire/magnet where they touch. be carefull not to heat the magnet since it will loose it's strength then.
 
 6x3mm Magnets 6x
 
