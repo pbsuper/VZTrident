@@ -21,9 +21,10 @@ sudo service klipper restart
 For more info go to [Quickdraw](https://github.com/Annex-Engineering/Quickdraw_Probe)
 
 
-Example Config for VZTrident 400 on BTT Octopus board.
+Example Config for VZTrident 400 on BTT Octopus board:
 
 [dockable_probe]
+
 pin: PG10 #your probe pin goes here
 
 x_offset: 26 # offset for microswitch x direction off nozzle
