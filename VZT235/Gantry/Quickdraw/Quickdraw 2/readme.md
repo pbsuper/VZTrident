@@ -16,4 +16,5 @@ Parts needed for QD2 specific parts:
 
 
 Thanks to Airox from the VZbot discord for adapting the VZbot print head mount.
+
 Thanks to Annex Engineering for making the QD2
