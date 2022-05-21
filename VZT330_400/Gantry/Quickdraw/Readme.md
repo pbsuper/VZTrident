@@ -19,7 +19,7 @@ wget https://raw.githubusercontent.com/Annex-Engineering/klipper/master/klippy/e
 sudo service klipper restart 
 ```
 For more info go to [Quickdraw](https://github.com/Annex-Engineering/Quickdraw_Probe)
-
+Credits to Annex-Engineering for designing it.
 
 Example Config for VZTrident 400 on BTT Octopus board:
 ```
