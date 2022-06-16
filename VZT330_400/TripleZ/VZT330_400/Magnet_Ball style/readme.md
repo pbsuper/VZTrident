@@ -5,8 +5,8 @@ this has not been tested yet. build on your own risk.
 
 [Magnet](https://www.ratrig.com/magnet-20-x-10-x-5mm-two-hole-m3-countersink-screws.html) 3x
 
-12/10mm Balls 3x
+[12mm_Balls](https://www.ratrig.com/steel-ball-12mm-threaded-m5.html) 3x
 
-If 12mm Balls are chosen an adapter is needed due to M5 hole in balls and M3 hole in Vzbot Bed.
+with 12mm balls an adapter is needed due to M5 hole in balls and M3 hole in Vzbot Bed.
 
 [Adapter](https://tameson.nl/fittingen/draadfitting/verloopnippel/verloopring/messing/fl2s-fm-b-m3-m5-m3-x-m5-f-m-messing-verloopring-16-bar.html?) 3x
