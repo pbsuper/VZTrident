@@ -1,4 +1,4 @@
-Here's the VZT235AWD.
+Here's the VZK235AWD.
 
 Using a Magnet and Balls Style Z with a awesome VZBot Skirt.
 
