@@ -7,13 +7,26 @@ Strip 2 24AWG wires for about 2cm twist the wire so no strands are loose and sti
 
 The printed Printhead version is made for the backplate without tensioners. If you still tension your belts at the backplate this won't fit.
 
+QD1 BOM
+```
 6x3mm Magnets 6x
-
 M3 Heat inserts 8x
-
 15cm 24AWG wire 2x
-
+M2x10mm socket head NOT RVS/Stainless. Needs to be attracted to magnets.
 Omron D2F-5 1x
+```
+
+QD2 BOM
+```
+6x6mm Magnets 4x
+M3 heat inserts 5x
+15cm 24AWG wire 2x
+Omron D2F-5 1x
+6x3-3mm ring magnets 2x [ring magnet](https://www.aliexpress.com/item/1005003026319118.html?)
+M3x8mm Ultra Flat Head bolt 2x [Ultra Flats](https://www.aliexpress.com/item/32981714992.html?)
+M3x12mm Button head or Ultra flat head 1x
+M2x10mm socket head NOT RVS/Stainless. Needs to be attracted to magnets.
+```
 
 To use quickdraw a module needs to be added.
 
