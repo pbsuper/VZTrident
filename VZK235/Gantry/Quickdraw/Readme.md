@@ -19,13 +19,14 @@ Omron D2F-5 1x
 QD2 BOM
 ```
 6x6mm Magnets 4x
-M3 heat inserts 5x
+M3 heat inserts 4x
+M3 Nut 1x
 15cm 24AWG wire 2x
 Omron D2F-5 1x
 6x3-3mm ring magnets 2x [ring magnet](https://www.aliexpress.com/item/1005003026319118.html?)
 M3x8mm Ultra Flat Head bolt 2x [Ultra Flats](https://www.aliexpress.com/item/32981714992.html?)
 M3x12mm Button head or Ultra flat head 1x
-M2x10mm socket head NOT RVS/Stainless. Needs to be attracted to magnets.
+M2x10mm Self tapping Button head NOT RVS/Stainless. Needs to be attracted to magnets.
 ```
 
 To use quickdraw a module needs to be added.
