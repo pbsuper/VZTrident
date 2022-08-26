@@ -23,7 +23,7 @@ M3 heat inserts 5x
 15cm 24AWG wire 2x
 Omron D2F-5 1x
 6x3-3mm ring magnets 2x [ring magnet](https://www.aliexpress.com/item/1005003026319118.html?)
-M3x8mm Ultra Flat Head bolt 2x [Ultra Flats](https://www.aliexpress.com/item/32981714992.html?)
+M3x8mm Ultra Flat Head bolt Black 2x [Ultra Flats](https://a.aliexpress.com/_uH3ne5)
 M3x12mm Button head or Ultra flat head 1x
 M2x10mm socket head NOT RVS/Stainless. Needs to be attracted to magnets.
 ```
