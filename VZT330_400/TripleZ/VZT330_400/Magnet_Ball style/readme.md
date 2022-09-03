@@ -9,4 +9,4 @@ this has not been tested yet. build on your own risk.
 
 with 12mm balls an adapter is needed due to M5 hole in balls and M3 hole in Vzbot Bed.
 
-[Adapter](https://tameson.nl/fittingen/draadfitting/verloopnippel/verloopring/messing/fl2s-fm-b-m3-m5-m3-x-m5-f-m-messing-verloopring-16-bar.html?) 3x
+[Adapter](https://nl.aliexpress.com/item/1005003252950334.html?) 3x Inside M3 outside M5 6mm long.
