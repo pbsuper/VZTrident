@@ -10,4 +10,4 @@ All files are included even a complete DXF set for the panels.
 [CAD editable](https://drive.google.com/file/d/1RfbHU0f-XCdsnAkHNe-j8OYhcVrjgxWS/view?usp=sharing)
 
 [Old VZT235 CAD](https://drive.google.com/file/d/1L4_Lsns9DV76UcdvgPYfmUujuNi_xPrc/view?usp=sharing)
-![image](https://github.com/pbsuper/VZTrident/blob/main/VZT235/Frame_235%20v6.png)
+![image](https://github.com/pbsuper/VZTrident/blob/main/VZK235/Frame_235%20v6.png)
