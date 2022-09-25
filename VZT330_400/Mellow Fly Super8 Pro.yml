@@ -1,0 +1,225 @@
+# the STM32F407 with a "32KiB bootloader".
+
+[include mainsail.cfg]
+[include Start_Stop.cfg]
+[include Ztilt.cfg]
+[include Adaptive_bedmesh_4.cfg]
+#[include Sensorless_1.cfg]
+
+[pause_resume]
+[display_status]
+[respond]
+[virtual_sdcard]
+path: ~/gcode_files
+
+[stepper_x]
+step_pin: PE2  # Drive0
+dir_pin: PC5
+enable_pin: !PF11
+microsteps: 16
+rotation_distance: 40
+endstop_pin: tmc2209_stepper_x:virtual_endstop 
+position_endstop: 0
+position_max: 500
+homing_speed: 50
+
+#[stepper_x1]
+#step_pin: PE3  # Drive1
+#dir_pin: PF13
+#enable_pin: !PF14
+#microsteps: 16
+#rotation_distance: 40
+
+[stepper_y]
+step_pin: PE4  # Drive2
+dir_pin: PG0
+enable_pin: !PG1
+microsteps: 16
+rotation_distance: 40
+endstop_pin: tmc2209_stepper_y:virtual_endstop 
+position_endstop: 0
+position_max: 500
+homing_speed: 50
+
+#[stepper_y1]
+#step_pin: PE14
+#dir_pin: PE8
+#enable_pin: !PE9
+#microsteps: 16
+#rotation_distance: 40
+
+[stepper_z]
+step_pin: PE15
+dir_pin: PE11
+enable_pin: !PF2
+microsteps: 16
+gear_ratio: 50:1
+rotation_distance: 40
+endstop_pin: probe:z_virtual_endstop
+#position_endstop: 0.5
+position_max: 350
+homing_speed: 15
+second_homing_speed: 3
+
+[stepper_z1]
+step_pin: PE1
+dir_pin: PF0
+enable_pin: !PC15
+microsteps: 16
+gear_ratio: 50:1
+rotation_distance: 40 
+
+
+[stepper_z2]
+step_pin: PE0
+dir_pin: PG3
+enable_pin: !PG4
+microsteps: 16
+gear_ratio: 50:1
+rotation_distance: 40 
+
+
+[extruder]
+step_pin: PE6
+dir_pin: PG6
+enable_pin: !PG7
+microsteps: 16 
+rotation_distance: 7.824
+nozzle_diameter: 0.400
+filament_diameter: 1.750
+heater_pin: PB0 # Heat0
+sensor_pin: PC1 # ADC_1
+sensor_type: PT100 INA826
+adc_voltage: 5.09
+voltage_offset: 0
+control: pid
+pid_Kp: 22.2
+pid_Ki: 1.08
+pid_Kd: 114
+min_temp: 0
+max_temp: 500
+
+[heater_bed]
+heater_pin: PE5   # BED
+sensor_pin: PF4   # ADC_5
+sensor_type: ATC Semitec 104GT-2
+control: watermark
+min_temp: 0
+max_temp: 200
+
+# BLTouch port, has <GND>,<5V>,<CTRL>,<GND>,<PROBE>
+[bltouch]
+sensor_pin: ^PC3
+control_pin: PC6
+stow_on_each_sample: False
+x_offset: 0 
+y_offset: 0 
+z_offset: 0
+speed: 10
+lift_speed: 25
+samples: 3
+sample_retract_dist: 5
+samples_result: median
+samples_tolerance: 0.03
+samples_tolerance_retries: 3
+
+[fan]
+pin: PA0  # Fan0
+
+[heater_fan fan1]
+pin: PA1
+
+#[heater_fan fan2]
+#pin: PA2
+
+#[heater_fan fan3]
+#pin: PA3
+
+#[heater_fan fan4]
+#pin: PA15
+
+#[heater_fan fan5]
+#pin: PB11
+
+#[heater_fan fan6]
+#pin: PB10
+
+#[heater_fan fan7]
+#pin: PD12
+
+#[heater_fan fan8]
+#pin: PD14
+
+#[heater_fan fan9]
+#pin: PD15
+
+[mcu]
+serial: /dev/serial/by-id/usb-Klipper_stm32f407xx_410030000F47393436343431-if00
+
+[printer]
+kinematics: corexy
+max_velocity: 300
+max_accel: 3000
+max_z_velocity: 5
+max_z_accel: 100
+
+
+[tmc2209 stepper_x]
+uart_pin: PC4
+run_current: 0.800
+diag_pin: PG12
+stealthchop_threshold: 0
+interpolate: False
+driver_SGTHRS: 80 # 255 is most sensitive value, 0 is least sensitive
+driver_TBL: 1
+driver_TOFF: 3
+driver_HSTRT: 1
+driver_HEND: 3
+
+#[tmc2208 stepper_x1]
+#uart_pin: PF12
+#run_current: 0.800
+#stealthchop_threshold: 999999
+#diag1_pin: PG11
+
+[tmc2209 stepper_y]
+uart_pin: PF15
+run_current: 0.650
+diag_pin: PG10
+stealthchop_threshold: 0
+interpolate: False
+driver_SGTHRS: 80 # 255 is most sensitive value, 0 is least sensitive
+driver_TBL: 1
+driver_TOFF: 3
+driver_HSTRT: 1
+driver_HEND: 3
+
+#[tmc2208 stepper_y1]
+#uart_pin: PE7
+#run_current: 0.800
+#stealthchop_threshold: 999999
+#diag1_pin: PG9
+
+[tmc2209 stepper_z]
+uart_pin: PE10
+run_current: 0.800
+stealthchop_threshold: 999999
+#diag1_pin: PD7
+
+[tmc2209 stepper_z1]
+uart_pin: PF1
+run_current: 0.800
+stealthchop_threshold: 999999
+#diag1_pin: PD6
+
+[tmc2209 stepper_z2]
+uart_pin: PG2
+run_current: 0.800
+stealthchop_threshold: 999999
+#diag1_pin: PA8
+
+[tmc2209 extruder]
+uart_pin: PG5
+run_current: 0.800
+stealthchop_threshold: 999999
+#diag1_pin: PF3
