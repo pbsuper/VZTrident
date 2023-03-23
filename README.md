@@ -9,8 +9,6 @@ Trident Skirt
 
 Annex engineering Panel clips and Door Hinges for the 400 and 330 size.
 
-DSC06307.JPG
-
 Triple Z system inspired by the Trident and Ratrig.
 
 Video of the 400 size printer: [VZTrident](https://drive.google.com/file/d/1hXe_eZGZ0fsk1MWA-nmpsxVc_xzYL8Yt/view?usp=sharing)
